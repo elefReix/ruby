@@ -1,0 +1,7 @@
+{
+  "name": "ruby",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
