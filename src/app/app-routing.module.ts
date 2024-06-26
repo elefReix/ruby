@@ -12,9 +12,14 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'login',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'nomina',
+    loadChildren: () => import('./pages/nomina/nomina.module').then( m => m.NominaPageModule)
+  },
+
 ];
 
 @NgModule({
